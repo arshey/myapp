@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5ada1e2f-9734-48f7-9722-91a666fe8fb1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/database/DBConnection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Controllers/BlogController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Controllers/BlogController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Controllers/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Controllers/Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/Route.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/Route.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/blog/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/blog/index.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1p8c03CfOhC2cUwVEawS8FKJcea" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="AtomConfig" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="poo" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="poo" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="poo" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner directory="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHPUnit.poo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5ada1e2f-9734-48f7-9722-91a666fe8fb1" name="Default Changelist" comment="" />
+      <created>1614567932463</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614567932463</updated>
+      <workItem from="1614567938383" duration="117000" />
+      <workItem from="1614568486247" duration="2763000" />
+      <workItem from="1614571970709" duration="4309000" />
+      <workItem from="1614625127210" duration="4000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="496" y="344" key="#Composer" timestamp="1614567967717">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="496" y="344" key="#Composer/0.0.1440.900@0.0.1440.900" timestamp="1614567967717" />
+    <state x="477" y="65" key="#DBConnection.php" timestamp="1614572604951">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="477" y="65" key="#DBConnection.php/0.0.1440.900@0.0.1440.900" timestamp="1614572604951" />
+    <state x="353" y="131" key="#Inspections" timestamp="1614574005584">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="353" y="131" key="#Inspections/0.0.1440.900@0.0.1440.900" timestamp="1614574005584" />
+    <state x="0" y="281" key="#SQL_Dialects" timestamp="1614573865405">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="0" y="281" key="#SQL_Dialects/0.0.1440.900@0.0.1440.900" timestamp="1614573865405" />
+    <state x="1658" y="71" key="#com.intellij.ide.util.MemberChooser" timestamp="1614713330669">
+      <screen x="1280" y="0" width="1024" height="768" />
+    </state>
+    <state x="1658" y="71" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800/1280.0.1024.768@1280.0.1024.768" timestamp="1614713330669" />
+    <state x="532" y="169" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1614575032934" />
+    <state x="327" y="60" key="#poo" timestamp="1614572195679">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="327" y="60" key="#poo/0.0.1440.900@0.0.1440.900" timestamp="1614572195679" />
+    <state x="1288" y="0" width="925" height="768" key="NewModule_or_Project.wizard" timestamp="1614623584106">
+      <screen x="1280" y="0" width="1024" height="768" />
+    </state>
+    <state x="1288" y="0" width="925" height="768" key="NewModule_or_Project.wizard/0.0.1280.800/1280.0.1024.768@0.0.1280.800" timestamp="1614623584106" />
+    <state x="405" y="158" key="NewPhpClassDialog" timestamp="1614572634451">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="405" y="158" key="NewPhpClassDialog/0.0.1440.900@0.0.1440.900" timestamp="1614572634451" />
+    <state x="510" y="371" key="NewPhpFileDialog" timestamp="1614569896659">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="510" y="371" key="NewPhpFileDialog/0.0.1440.900@0.0.1440.900" timestamp="1614569896659" />
+    <state x="250" y="86" key="SettingsEditor" timestamp="1614572853934">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="250" y="86" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1614572853934" />
+  </component>
+</project>
