@@ -1,10 +1,21 @@
 <?php
 
-
 namespace App\Controllers;
-
+use Database\DBConnection;
 
 class Controller {
+
+    protected DBConnection $db;
+
+    /**
+     * Controller constructor.
+     * @param DBConnection $db
+     */
+    public function __construct(DBConnection $db)
+    {
+        $this->db = $db;
+    }
+
 
     public function view(string $path, array $params = null)
     {
@@ -17,8 +28,7 @@ class Controller {
         }
         $content = ob_get_clean();
         require VIEWS.'layout.php';
-    }
 
-    public function show(){}
+    }
 
 }
