@@ -8,6 +8,16 @@
     <link rel="stylesheet" href="<?= SCRIPTS.'css'.DIRECTORY_SEPARATOR.'app.css' ?>">
 </head>
 <body>
+
+    <nav class="nav">
+        <li class="nav-item">
+            <a class="nav-link" href="/">Accueil</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/posts">Les derniers articles</a>
+        </li>
+    </nav>
+
     <div class="container">
         <?= $content ?>
     </div>

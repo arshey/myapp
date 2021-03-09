@@ -1,11 +1,21 @@
-<h1>Home Page My APP</h1>
+<h1>LES DERNIERS ARTICLES</h1>
 
-<p>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, at beatae dolores hic inventore laudantium optio sapiente? Architecto, asperiores commodi corporis delectus dolor eius est excepturi impedit inventore ipsam laudantium nam natus necessitatibus, quibusdam sed tenetur ullam vel voluptas voluptatibus voluptatum. Eligendi illum iste natus omnis rem sunt. Ad corporis facilis modi neque nostrum, nulla quasi quibusdam reprehenderit repudiandae voluptates? Alias eligendi est illo ratione reprehenderit sequi tempora. Dignissimos eligendi, excepturi fuga harum illum itaque magnam modi mollitia nobis, perspiciatis quisquam sed tempore voluptas? Alias assumenda blanditiis dolore eligendi esse excepturi expedita facilis fuga, hic iure laboriosam nam necessitatibus officia pariatur quod recusandae rem repudiandae sunt ut voluptate? Aliquid asperiores blanditiis consectetur consequatur consequuntur deleniti dolor fuga illo impedit ipsum laboriosam laborum maiores minus nisi omnis quam, quo quod quos, repellat repudiandae sed sint sunt tempora tenetur ullam velit veniam voluptatibus! Accusamus dicta dolorum error, esse fugiat, iste minus nam officiis omnis porro quibusdam vel! Amet deleniti minima quae. A aliquid architecto atque consectetur culpa error ex explicabo facere fuga id inventore ipsa laboriosam minima minus obcaecati quasi quibusdam quis quod ratione recusandae sapiente, sequi similique sint sit, temporibus tenetur voluptates voluptatum! Excepturi explicabo, fugit impedit maiores molestiae molestias nam natus quae quam quas ratione recusandae sequi voluptate? Accusamus, atque blanditiis consequatur dicta doloremque dolorum earum excepturi fuga fugiat iure iusto minima minus modi mollitia nihil officiis perspiciatis quam quia quo reprehenderit sequi, sit soluta tempora totam, unde velit veritatis vitae. Accusamus animi blanditiis iste minus mollitia porro praesentium totam.
-</p>
-
-<p>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, at beatae dolores hic inventore laudantium optio sapiente? Architecto, asperiores commodi corporis delectus dolor eius est excepturi impedit inventore ipsam laudantium nam natus necessitatibus, quibusdam sed tenetur ullam vel voluptas voluptatibus voluptatum. Eligendi illum iste natus omnis rem sunt. Ad corporis facilis modi neque nostrum, nulla quasi quibusdam reprehenderit repudiandae voluptates? Alias eligendi est illo ratione reprehenderit sequi tempora. Dignissimos eligendi, excepturi fuga harum illum itaque magnam modi mollitia nobis, perspiciatis quisquam sed tempore voluptas? Alias assumenda blanditiis dolore eligendi esse excepturi expedita facilis fuga, hic iure laboriosam nam necessitatibus officia pariatur quod recusandae rem repudiandae sunt ut voluptate? Aliquid asperiores blanditiis consectetur consequatur consequuntur deleniti dolor fuga illo impedit ipsum laboriosam laborum maiores minus nisi omnis quam, quo quod quos, repellat repudiandae sed sint sunt tempora tenetur ullam velit veniam voluptatibus! Accusamus dicta dolorum error, esse fugiat, iste minus nam officiis omnis porro quibusdam vel! Amet deleniti minima quae. A aliquid architecto atque consectetur culpa error ex explicabo facere fuga id inventore ipsa laboriosam minima minus obcaecati quasi quibusdam quis quod ratione recusandae sapiente, sequi similique sint sit, temporibus tenetur voluptates voluptatum! Excepturi explicabo, fugit impedit maiores molestiae molestias nam natus quae quam quas ratione recusandae sequi voluptate? Accusamus, atque blanditiis consequatur dicta doloremque dolorum earum excepturi fuga fugiat iure iusto minima minus modi mollitia nihil officiis perspiciatis quam quia quo reprehenderit sequi, sit soluta tempora totam, unde velit veritatis vitae. Accusamus animi blanditiis iste minus mollitia porro praesentium totam.
-</p>
+<?php foreach($params['posts'] as $post ): ?>
 
 
+
+<div class="card mb-3 shadow">
+    <div class="card-body">
+        <h5 class="card-title"><?= $post->title ?></h5>
+        <div>
+            <?php foreach ($post->getTags() as $tag): ?>
+                <a href="/tags/<?= $tag->id ?>"><span class="badge badge-info"><?= $tag->name ?></span></a>
+            <?php endforeach ?>
+        </div>
+        <small class="text-info" style="font-style:italic">Publié le <?= $post->getCreatedAt() ?></small>
+        <p class="card-text"><?= $post->getExcerpt() ?></p>
+        <?= $post->getButton() ?>
+    </div>
+</div>
+
+<?php endforeach ?>
