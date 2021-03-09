@@ -11,6 +11,8 @@ define('DB_NAME', "poo");
 define('DB_USERNAME', "root");
 define('DB_PASSWORD', "root");
 
+$demo = "ceci est une demo";
+
 
 $url = $_GET['url'];
 
